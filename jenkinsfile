@@ -7,7 +7,7 @@ agent none
 stages {
 
     stage('Deploy Q2') {
-        agent { label 'slave1' }
+        agent { label 'slave2' }
 
         steps {
             dir('q2') {
